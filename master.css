@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#layover{
+    width:70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    border-radius: 10px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+}
+
+.logo{
+    width: 20%;
+}
+
+header,.title{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(8, 220, 4);
+}
+
+.title{
+    margin-bottom: 1%;
+}
+
+.navigator{
+    width: auto;
+    color: white;
+    background-color: rgba(8, 220, 4);
+    text-align: center;
+    padding: 1%;
+}
+
+main{
+    color: white;
+}
+
+.name{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.place.charge{
+    font-size: 15px;
+}
+
+#charging_bar_1{
+    width: 40%;
+    height: 25px;
+    background-color: rgba(245, 180, 83);
+    border-radius: 5px;
+}
+
+#charging_bar_2{
+    width: 70%;
+    height:25px;
+    background-color: rgba(30, 195, 30);
+    border-radius: 5px;
+}
+
+#charging_bar_3{
+    width: 15%;
+    height:25px;
+    background-color: rgba(190, 65, 65);
+    border-radius: 5px;
+}
